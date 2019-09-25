@@ -18,15 +18,19 @@ For this lab, we will be experimenting with a variety of sensors, sending the da
 ## Part B. RGB LED
 
 **How might you use this with only the parts in your kit? Show us your solution.**
-Insert Pictures
+Insert Pictures/video
 
 ## Part C. Voltage Varying Sensors 
  
 ### 1. FSR, Flex Sensor, Photo cell, Softpot
 
 **a. What voltage values do you see from your force sensor?**
+I see values ranging from 0 when the sensor is not being touched, to at lowest 170 when minimal pressure is applied to approximately 990 when max pressure is applied.
 
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
+The relationship is not linear, but rather - similar in shape to a square root or logarithmic function. 
+
+Image below. 
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
 
