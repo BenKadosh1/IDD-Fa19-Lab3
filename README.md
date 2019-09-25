@@ -1,6 +1,6 @@
 # Data Logger (and using cool sensors!)
 
-*A lab report by John Q. Student.*
+*A lab report by Ben Kadosh.*
 
 ## In The Report
 
@@ -18,6 +18,7 @@ For this lab, we will be experimenting with a variety of sensors, sending the da
 ## Part B. RGB LED
 
 **How might you use this with only the parts in your kit? Show us your solution.**
+Insert Pictures
 
 ## Part C. Voltage Varying Sensors 
  
