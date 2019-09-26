@@ -10,6 +10,8 @@
  
 **b. How many bits of resolution does the analog to digital converter (ADC) on the Arduino have?**
 
+???
+
 ## Part B. RGB LED
 
 **How might you use this with only the parts in your kit? Show us your solution.**
