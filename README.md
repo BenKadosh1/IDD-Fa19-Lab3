@@ -63,8 +63,9 @@ Becuase we are in essence writing to secondary memory (non-volatile memory) loop
 **c. How many byte-sized data samples can you store on the Atmega328?**
 1024 byte-size data samples, because each character occuppies one byte of memory and so there are 1024 bytes in total. 
 **d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
-One way to cut down on memory usage would be to use data types that take up less memory. Because the analog data tends to be relatively small (0-1023) it can be stored as a short int which would reduce the size to two bytes of memory. Similarly for I2C devices, the challenge here is how to handle the analog data once we have it whether from analog pins or I2C devices. So to reduce the size, we must strip padded data and use only the bare minimum amount for storing the data.
+One way to cut down on memory usage would be to use data types that take up less memory. Because the analog data tends to be relatively small (0-1023) it can be stored as a byte or an unsigned char, which occupies one byte of memory, if small enough or a short int which would reduce the size to two bytes of memory. Similarly for I2C devices, the challenge here is how to handle the analog data once we have it whether from analog pins or I2C devices. So to reduce the size, we must strip padded data and use only the bare minimum amount for storing the data.
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
+As the example shows, and as is mentioned above -- if the data is larger than a byte a short int or float could be used, as well as an array of chars or regular ints depending on the size. To maintain smaller data types and reduce memory usage as much as possible. 
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
 
