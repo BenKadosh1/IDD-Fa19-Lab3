@@ -59,7 +59,7 @@ Same as C.
 **a. Does it matter what actions are assigned to which state? Why?**
 
 **b. Why is the code here all in the setup() functions and not in the loop() functions?**
-
+Becuase we are in essence writing to secondary memory (non-volatile memory) looping through it indefinitely would cause an overflow. Furthermore, because the amount of memory is so small, we make the desired changes once in setup to avoid overloading the secondary memory with non-terminating code in the loop() function.
 **c. How many byte-sized data samples can you store on the Atmega328?**
 
 **d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
