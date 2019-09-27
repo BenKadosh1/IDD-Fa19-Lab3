@@ -33,7 +33,7 @@ Image below.
 
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 With a 22k resistor I was able to get a much more reasonable range of voltages from 20 t0 1010, whereas with a 10k resistor I was able to get from 180 to 980.  
-\\
+
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
 Same as C. 
 
