@@ -41,7 +41,10 @@ The relationship is not linear, but rather - similar in shape to a logarithmic f
 
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 
-With a 22k resistor I was able to get a much more reasonable range of voltages from 20 t0 1010, whereas with a 10k resistor I was able to get from 180 to 980.  
+With a 22k resistor I was able to get a much more reasonable range of voltages from 20 t0 1010, whereas with a 10k resistor I was able to get from 180 to 980. 
+
+[Softpot In Action](https://www.youtube.com/watch?v=zEQxVH3rcrE&feature=youtu.be)
+[Photocell In Action](https://www.youtube.com/watch?v=H-Ps3cTD7cU&feature=youtu.be)
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
 
