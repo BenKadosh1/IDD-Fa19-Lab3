@@ -16,6 +16,8 @@ The range of the analog values is 0 - 1023.
 
 **How might you use this with only the parts in your kit? Show us your solution.**
 Insert Pictures/video
+https://www.youtube.com/watch?v=lV5BGbujLcM
+https://www.youtube.com/watch?v=KqohEhZTQzo
 
 ## Part C. Voltage Varying Sensors 
  
