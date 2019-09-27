@@ -67,6 +67,7 @@ With a 22k resistor I was able to get a much more reasonable range of voltages f
 ## Optional. Graphic Display
 
 [Graphic Display In Action](https://www.youtube.com/watch?v=u4Ng7VHn6uI&feature=youtu.be)
+
 [Graphic Display Code](https://github.com/BenKadosh1/IDD-Fa19-Lab3/blob/master/Part_E_Code.ino)
 
 ## Part D. Logging values to the EEPROM and reading them back
