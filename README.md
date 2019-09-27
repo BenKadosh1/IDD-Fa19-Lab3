@@ -30,7 +30,7 @@ I see values ranging from 0 when the sensor is not being touched, to at lowest 1
 
 The relationship is not linear, but rather - similar in shape to a logarithmic function. Minimal pressure will show a noticeable increase, but towards the tail end much more force must be used for small changes in voltage increase to occur. A graph depicting the relationship between voltage and force applied is below. 
 
-<img src="https://github.com/BenKadosh1/IDD-Fa19-Lab3/blob/master/Voltage%20vs%20Pressure.PNG" width=750 height=550>
+<img src="https://github.com/BenKadosh1/IDD-Fa19-Lab3/blob/master/Voltage%20vs%20Pressure.PNG" width=800 height=450>
 
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
