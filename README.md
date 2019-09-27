@@ -26,7 +26,7 @@ The range of the analog values is 0 - 1023.
 I see values ranging from 0 when the sensor is not being touched, to at lowest 170 when minimal pressure is applied to approximately 990 when max pressure is applied.
 
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
-The relationship is not linear, but rather - similar in shape to a square root or logarithmic function. 
+The relationship is not linear, but rather - similar in shape to a logarithmic function. Minimal pressure will show a noticeable increase, but towards the tail end much more force much be used for smaller changes in voltage increase to occur. A graph depicting the relationship between voltage and force applied is below. 
 
 Image below. 
 
