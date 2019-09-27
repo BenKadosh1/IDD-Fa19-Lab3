@@ -55,10 +55,13 @@ With a 22k resistor I was able to get a much more reasonable range of voltages f
 **a. Include your accelerometer read-out code in your write-up.**
 
 [Accelerometer In Action](https://www.youtube.com/watch?v=2Tfdy9NBqa8&feature=youtu.be)
+
 [Accelerometer Code](https://github.com/BenKadosh1/IDD-Fa19-Lab3/blob/master/acceldemo_with_LCD.ino)
 
+\\
 
 [Accelerometer and LED In Action](https://www.youtube.com/watch?v=Y-yxF2pNad8&feature=youtu.be)
+
 [Accelerometer and LED Code](https://github.com/BenKadosh1/IDD-Fa19-Lab3/blob/master/acceldemo_with_LCD_and_LED.ino)
 
 ## Optional. Graphic Display
