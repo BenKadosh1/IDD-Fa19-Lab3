@@ -10,7 +10,7 @@ The range of the analog values is 0 - 1023.
  
 **b. How many bits of resolution does the analog to digital converter (ADC) on the Arduino have?**
 
-???
+??? 2 to the 10. 10 bits look up ADC
 
 ## Part B. RGB LED
 
@@ -37,7 +37,7 @@ The relationship is not linear, but rather - similar in shape to a logarithmic f
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
 
-???
+??? Map to scale
 
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 
@@ -48,7 +48,7 @@ With a 22k resistor I was able to get a much more reasonable range of voltages f
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
 
-???
+??? linear elaborate later
 
 ### 2. Accelerometer
  
@@ -75,6 +75,7 @@ With a 22k resistor I was able to get a much more reasonable range of voltages f
 ### 1. Reading and writing values to the Arduino EEPROM
 
 **a. Does it matter what actions are assigned to which state? Why?**
+
 
 **b. Why is the code here all in the setup() functions and not in the loop() functions?**
 Becuase we are in essence writing to secondary memory (non-volatile memory) looping through it indefinitely would cause an overflow. Furthermore, because the amount of memory is so small, we make the desired changes once in setup to avoid overloading the secondary memory with non-terminating code in the loop() function.
