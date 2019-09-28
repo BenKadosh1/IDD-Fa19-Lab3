@@ -93,7 +93,7 @@ One way to cut down on memory usage would be to use data types that take up less
 
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
 
-As the example shows, and as is mentioned above -- if the data is larger than a byte a short int or float could be used, as well as an array of chars or regular ints depending on the size. To maintain smaller data types and reduce memory usage as much as possible. 
+As the example shows, and as is mentioned above -- if the data is larger than a byte, a short int or float could be used, as well as an array of chars or regular ints depending on the size, By using the smaller data types that are larger than a byte, we are able to  reduce memory usage as much as possible. 
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
 
