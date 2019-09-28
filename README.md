@@ -77,7 +77,7 @@ It appears that the relationship is linear. As can be seen with the softpot, as 
 
 **a. Does it matter what actions are assigned to which state? Why?**
 
-Yes it does - so long as the actions are dependent on the state. If the same actions will occur in each state then it does not matter. In the context of the code at hand it does matter becuase the ordering of the tasks we want to accomplish matter. In order to preserve the integrity of the data, we want to ensure that we read after we write and clear after we read, as well as ensure that write when there is data to write and read when there isn't (i.e. when the voltage is on/off high/low).
+Yes it does - so long as the actions are dependent on the state. If the same actions will occur in each state then it does not matter. In the context of the code at hand, it does matter becuase the ordering of the tasks we want to accomplish matters. In order to preserve the integrity of the data, we want to ensure that we read after we write and clear after we read, as well as ensure that we write when there is data to write and read when there isn't (i.e. when the voltage is on/off high/low).
 
 **b. Why is the code here all in the setup() functions and not in the loop() functions?**
 
