@@ -96,6 +96,8 @@ As the example shows, and as is mentioned above -- if the data is larger than a 
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
 
+[Ben's EEPROM Code](https://github.com/BenKadosh1/IDD-Fa19-Lab3/blob/master/EEPROM_BK.ino)
+
 ### 2. Design your logger
  
 **a. Insert here a copy of your final state diagram.**
