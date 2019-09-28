@@ -37,7 +37,7 @@ The relationship is not linear, but rather - similar in shape to a logarithmic f
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
 
-??? Map to scale
+Yes. Since the full range of output voltages from the FSR is 0-1023, we must find a way to translate to the full range of LED values 0-255. In order to do so, we can use the map function to change the values to get the full range of putput voltages for the LED. 
 
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 
