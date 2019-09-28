@@ -10,7 +10,7 @@ The range of the analog values is 0 - 1023.
  
 **b. How many bits of resolution does the analog to digital converter (ADC) on the Arduino have?**
 
-??? 2 to the 10. 10 bits look up ADC
+The Arduino is able to detect 1024 unique analog values, which we have seen to be 0 - 1023. 1024 = 2 to the 10th so there are 10 bits of resolution in the Arduino.
 
 ## Part B. RGB LED
 
