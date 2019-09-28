@@ -44,6 +44,7 @@ Yes. Since the full range of output voltages from the FSR is 0-1023, we must fin
 With a 22k resistor I was able to get a much more reasonable range of voltages from 20 to 1010, whereas with a 10k resistor I was able to get from 180 to 980. 
 
 [Softpot In Action](https://www.youtube.com/watch?v=zEQxVH3rcrE&feature=youtu.be)
+
 [Photocell In Action](https://www.youtube.com/watch?v=H-Ps3cTD7cU&feature=youtu.be)
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
