@@ -89,7 +89,7 @@ Becuase we are in essence writing to secondary memory (non-volatile memory) loop
 
 **d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
 
-One way to cut down on memory usage would be to use data types that take up less memory. Because the analog data tends to be relatively small (0-1023) it can be stored as a byte or an unsigned char, which occupies one byte of memory, if small enough or a short int which would reduce the size to two bytes of memory. Similarly for I2C devices, the challenge here is how to handle the analog data once we have it whether from analog pins or I2C devices. So to reduce the size, we must strip padded data and use only the bare minimum amount for storing the data.
+One way to cut down on memory usage would be to use data types that take up less memory. Because the analog data tends to be relatively small (0-1023) it can be stored as a byte or an unsigned char, which occupies one byte of memory, or a short int which would reduce the size to two bytes of memory. Similarly for I2C devices, the challenge here is how to handle the analog data once we have it whether from analog pins or I2C devices. So to reduce the size, we must strip padded data and use only the bare minimum amount for storing the data.
 
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
 
