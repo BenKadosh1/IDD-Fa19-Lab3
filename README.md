@@ -49,7 +49,7 @@ With a 22k resistor I was able to get a much more reasonable range of voltages f
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
 
-It appears that the relationship is linear. As can be seen with the softpot, as we slide our finger across the softpot the voltage values read increase at a constant rate. We don't have to slide it more distance to get an equal increase in voltage at any point along the surface.
+It appears that the relationship is linear. As can be seen with the softpot, as we slide our finger across the softpot the voltage values increase at a constant rate. We don't have to slide it a larger amount of distance to get an equal increase in voltage at any point along the surface.
 
 ### 2. Accelerometer
  
