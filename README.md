@@ -107,5 +107,9 @@ As the example shows, and as is mentioned above -- if the data is larger than a 
 
 
 ### 3. Create your data logger!
- 
+
+Background: For my own data logger, I am using a photocell to track the intensity of light at a given time, and tracking for notable changes in light intensity over a 15 second period. The goal is to identify scenarios where there is rapid change in light that my trigger epileptic seizures. 
+
+In order to do this, I logged the measured values from the photocell and stored them in the EEPROM. I then iterated througn the data printing it onto the LCD, and determined the change in voltage and established a threshold for what constituted a notable change and how many notable changes had to occur to trigger a warning to the user. 
+
 [Ben's Data Logger In Action](https://www.youtube.com/watch?v=Y1YMkEicCK4&feature=youtu.be)
