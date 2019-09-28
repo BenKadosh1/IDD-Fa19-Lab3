@@ -75,6 +75,7 @@ With a 22k resistor I was able to get a much more reasonable range of voltages f
 ### 1. Reading and writing values to the Arduino EEPROM
 
 **a. Does it matter what actions are assigned to which state? Why?**
+
 ???Yes it does. copy write read order. Also depends on dependency of action to state
 
 **b. Why is the code here all in the setup() functions and not in the loop() functions?**
