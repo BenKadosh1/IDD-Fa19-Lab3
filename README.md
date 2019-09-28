@@ -107,4 +107,4 @@ As the example shows, and as is mentioned above -- if the data is larger than a 
 
 ### 3. Create your data logger!
  
-**a. Record and upload a short demo video of your logger in action.**
+[Ben's Data Logger In Action](https://www.youtube.com/watch?v=Y1YMkEicCK4&feature=youtu.be)
