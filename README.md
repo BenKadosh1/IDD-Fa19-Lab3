@@ -101,6 +101,8 @@ As the example shows, and as is mentioned above -- if the data is larger than a 
 ### 2. Design your logger
  
 **a. Insert here a copy of your final state diagram.**
+<img src="https://github.com/BenKadosh1/IDD-Fa19-Lab3/blob/master/Final%20State%20Diagram.jpg" width=800 height=450>
+
 
 ### 3. Create your data logger!
  
